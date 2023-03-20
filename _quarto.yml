@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "fastroads"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about-us.qmd
+        text: about us
+      - href: fast-roads.qmd
+        text: fast roads
+      - href: blog.qmd
+        text: blog
+      - href: contact-page.qmd
+        text: contact us
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
