@@ -3,5 +3,15 @@ title: "About us"
 format: html
 ---
 
-We are a team of 8 students, studying at Mahindra university, working on reducing commuting times as a part of our desgin thinking course.
+### Welcome to Design Thinkers
+A team of eight students from diverse academic backgrounds who are passionate about solving traffic congestion in urban areas. 
+Our team comprises of Abhirath Sangala **(Computational Mathematics)**, Bhuvana Kanakam **(Computer Science and Engineering)**, Adarsh Saraf, Hiten Sachani, Gokul Mathukumalli, Rajeev Sriramoju, Sudhamshu Suri, and Vaishnavi Teertala **(Electronics and Computer Engineering)**.
 
+### Our inspiration for the project
+Our motivation for participating in this project is a desire to support for an important cause. We are confident that by working together and leveraging our individual capabilities, we can significantly improve traffic flow and lessen congestion.
+
+### Hobbies
+In addition to our studies, we enjoy playing sports and spending time with friends and family. We are also passionate about environmental sustainability and are interested in finding ways to incorporate sustainable practices into transportation infrastructure.
+
+
+*Thank you for visiting our website. We hope you find our work inspiring and look forward to hearing from you.*
