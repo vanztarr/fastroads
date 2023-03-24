@@ -3,3 +3,4 @@ title: "Contact Us"
 format: html
 ---
 
+To contact as please email to se21uece004@mahindrauniversity.edu.in 

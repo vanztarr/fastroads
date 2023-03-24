@@ -3,4 +3,10 @@ title: "Fast Roads"
 format: html
 ---
 
-# fuck em all
+# Our approach
+As with any project, we have spent a good deal of time trying to concretely formulate the problem we intend to solve while scrupulously omitting any mention of a potential solution. We believe that coming up with a solution prior to having an exact idea of the problem itself is counterproductive; any other, potentially superior stragies to solving the problem could be completely overshadowed by that one naive solution everyone is already thinking about. Next follows the survey portion of our approach where we try to get as much information about the manifestation of the problem and its context as possible. Just as in the previous case, to get unbiased information we have planned to conduct the survey in a controlled manner.
+
+## A concrete formulation of the problem
+
+## Survey
+
