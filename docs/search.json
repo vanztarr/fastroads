@@ -14,13 +14,6 @@
     "text": "Why we’re doing it\nWe’re doing it because commuting times don’t have to be this bad and it’s a shame that they are. The longer the commute, the lower the satisfaction with work and life; the length of commuting can also cause damage to health, affecting physical health and causing inactivity (Libin 2022). Commuting time is also directly related to the economic health of a city in certain aspects (David 2021), (Justin 2022)."
   },
   {
-    "objectID": "about-us.html",
-    "href": "about-us.html",
-    "title": "About us",
-    "section": "",
-    "text": "We are a team of 8 students, studying at Mahindra university, working on reducing commuting times as a part of our desgin thinking course."
-  },
-  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
@@ -35,6 +28,13 @@
     "text": "To contact as please email to se21uece004@mahindrauniversity.edu.in"
   },
   {
+    "objectID": "about-us.html",
+    "href": "about-us.html",
+    "title": "About us",
+    "section": "",
+    "text": "Welcome to Design Thinkers\nA team of eight students from diverse academic backgrounds who are passionate about solving traffic congestion in urban areas. Our team comprises of Abhirath Sangala (Computational Mathematics), Bhuvana Kanakam (Computer Science and Engineering), Adarsh Saraf, Hiten Sachani, Gokul Mathukumalli, Rajeev Sriramoju, Sudhamshu Suri, and Vaishnavi Teertala (Electronics and Computer Engineering).\n\n\nOur inspiration for the project\nOur motivation for participating in this project is a desire to support for an important cause. We are confident that by working together and leveraging our individual capabilities, we can significantly improve traffic flow and lessen congestion.\n\n\nHobbies\nIn addition to our studies, we enjoy playing sports and spending time with friends and family. We are also passionate about environmental sustainability and are interested in finding ways to incorporate sustainable practices into transportation infrastructure.\nThank you for visiting our website. We hope you find our work inspiring and look forward to hearing from you."
+  },
+  {
     "objectID": "fast-roads.html",
     "href": "fast-roads.html",
     "title": "Fast Roads: commuting doesn’t have to be this bad!",
@@ -46,13 +46,13 @@
     "href": "fast-roads.html#a-concrete-formulation-of-the-problem",
     "title": "Fast Roads: commuting doesn’t have to be this bad!",
     "section": "A concrete formulation of the problem",
-    "text": "A concrete formulation of the problem"
+    "text": "A concrete formulation of the problem\nTraffic congestion is a significant problem in urban areas caused by ineffective traffic signal systems. The fixed-timing pattern of traffic signals leads to long delays, stop-and-go traffic, and wasted fuel. This problem affects * emergency services * business productivity * the environment.\n\ninconvience to commuters\nCongestion can cause delays for emergency services, making it challenging to respond to critical situations quickly. Businesses may suffer losses due to delays in the transportation of goods and services, while commuters may experience increased stress and fatigue due to longer commute times.\n\n\nthe environment\nIdling vehicles produce harmful pollutants such as carbon monoxide, nitrogen oxides, and particulate matter, which can lead to respiratory problems and other health issues. It also contributes to greenhouse gas emissions, which exacerbate the problem of climate change.\nFurthermore, the traffic signals are not coordinated with each other, resulting in stop-and-go traffic that wastes fuel, increases emissions, and leads to longer commute times for drivers. This issue is compounded by the fact that drivers tend to accelerate quickly when they see a green light, only to be forced to brake suddenly when they encounter the next red light, which can increase the risk of accidents and further worsen traffic congestion."
   },
   {
-    "objectID": "fast-roads.html#survey",
-    "href": "fast-roads.html#survey",
+    "objectID": "fast-roads.html#in-conclusion",
+    "href": "fast-roads.html#in-conclusion",
     "title": "Fast Roads: commuting doesn’t have to be this bad!",
-    "section": "Survey",
-    "text": "Survey"
+    "section": "In conclusion",
+    "text": "In conclusion\nthe problem of traffic congestion caused by the static traffic signal system is a significant issue that impacts various aspects of urban life. To address this issue, transportation authorities must implement modern traffic management systems that use real-time data to adjust the timing of traffic signals to match the traffic flow, which can help reduce congestion, improve travel times, and enhance the quality of life for commuters."
   }
 ]
