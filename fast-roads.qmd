@@ -3,25 +3,25 @@ title: "Fast Roads: commuting doesn't have to be this bad!"
 format: html
 ---
 
-## Our approach
+## Our Approach
 As with any project, we have spent a good deal of time trying to concretely formulate the problem we intend to solve while scrupulously omitting any mention of a potential solution. We believe that coming up with a solution prior to having an exact idea of the problem itself is counterproductive; any other, potentially superior stragies to solving the problem could be completely overshadowed by that one naive solution everyone is already thinking about. Next follows the survey portion of our approach where we try to get as much information about the manifestation of the problem and its context as possible. Just as in the previous case, to get unbiased information we have planned to conduct the survey in a controlled manner.
 
-## A concrete formulation of the problem
+## A Concrete Formulation Of The Problem
 Traffic congestion is a significant problem in urban areas caused by ineffective traffic signal systems. The fixed-timing pattern of traffic signals leads to long delays, stop-and-go traffic, and wasted fuel. 
-This problem affects 
-* emergency services
-* business productivity
-* the environment. 
 
-#### inconvience to commuters
-Congestion can cause delays for emergency services, making it challenging to respond to critical situations quickly. Businesses may suffer losses due to delays in the transportation of goods and services, while commuters may experience increased stress and fatigue due to longer commute times.
+This problem affects :
+1. inconvience to commuters - cause delays for emergency services, making it challenging to respond to critical situations quickly. Businesses may suffer losses due to delays in the transportation of goods and services, while commuters may experience increased stress and fatigue due to longer commute times.
+2. the environment - produce harmful pollutants such as carbon monoxide, nitrogen oxides, and particulate matter, which can lead to respiratory problems and other health issues. also contributes to greenhouse gas emissions, which exacerbate the problem of climate change.
 
-#### the environment
-Idling vehicles produce harmful pollutants such as carbon monoxide, nitrogen oxides, and particulate matter, which can lead to respiratory problems and other health issues. It also contributes to greenhouse gas emissions, which exacerbate the problem of climate change.
 
-Furthermore, the traffic signals are not coordinated with each other, resulting in stop-and-go traffic that wastes fuel, increases emissions, and leads to longer commute times for drivers. This issue is compounded by the fact that drivers tend to accelerate quickly when they see a green light, only to be forced to brake suddenly when they encounter the next red light, which can increase the risk of accidents and further worsen traffic congestion.
+## Mathematical View Point, According To Our Analysis
+let's say that the average travel time for a commuter traveling from point A to point B during peak hours is 30 minutes, whereas the same journey would take only 15 minutes in the absence of traffic congestion. This means that the delay caused by traffic congestion is 15 minutes per trip or 0.5 hours per day for a round trip.
 
-## In conclusion
+If we assume that there are 10,000 commuters traveling between point A and point B during peak hours, then the total delay caused by traffic congestion would be 5,000 hours per day or 1,825,000 hours per year. This translates into significant losses in productivity, increased fuel consumption, and higher emissions.
+
+To quantify the environmental impact of traffic congestion, we can estimate the amount of greenhouse gas emissions produced by idling vehicles. According to studies, a typical passenger vehicle emits 1.1 pounds of carbon dioxide per minute while idling. If we assume that a commuter spends 30 minutes per day idling in traffic, then the annual emissions per commuter would be 201.5 pounds of carbon dioxide.
+
+If we extend this calculation to 10,000 commuters, the total annual emissions caused by idling vehicles would be 2,015,000 pounds or 907 metric tons of carbon dioxide. This is a significant contribution to greenhouse gas emissions, which can further exacerbate the problem of climate change.
+
+## In Conclusion
 the problem of traffic congestion caused by the static traffic signal system is a significant issue that impacts various aspects of urban life. To address this issue, transportation authorities must implement modern traffic management systems that use real-time data to adjust the timing of traffic signals to match the traffic flow, which can help reduce congestion, improve travel times, and enhance the quality of life for commuters. 
-
-
