@@ -17,6 +17,8 @@ website:
       - href: contact-page.qmd
         text: contact us
 
+bibliography: references.bib
+
 format:
   html:
     theme: cosmo

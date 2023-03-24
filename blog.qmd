@@ -3,4 +3,15 @@ title: "Blog"
 format: html
 ---
 
-Nothing here yet.
+# Timeline
+
+Multiple meetings that have not been properly recorded have been omitted.
+
+|Date|Task completed|
+|:--:|:-------------|
+2023-02-07| First proper discussion on what to do
+2023-02-13| Second discussion on discussing possible problems
+2023-02-17| Discussion to shortlist problems
+2023-02-21| Finilization of problem
+2023-03-19| First version of project website published
+2023-03-24| Final version of project website prior to submission deadline published
