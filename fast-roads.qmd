@@ -8,5 +8,5 @@ As with any project, we have spent a good deal of time trying to concretely form
 
 ## A concrete formulation of the problem
 
-## Survey
+## Analysis
 
