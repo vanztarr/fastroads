@@ -1,7 +1,7 @@
 ---
-title: "Fast roads: Design thinking project"
+title: "Fast Roads: Design thinking project"
 ---
 
-# Our goal
+## Our goal
 
 We are trying to build simple passive solutions to reduce travel times in cities. Our concrete goal is to reduce commute times, that is the time taken for someone to reach their destination from their starting point.

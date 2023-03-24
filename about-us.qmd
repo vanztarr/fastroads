@@ -3,7 +3,5 @@ title: "About us"
 format: html
 ---
 
-# Team members
-
 We are a team of 8 students, studying at Mahindra university, working on reducing commuting times as a part of our desgin thinking course.
 
