@@ -25,3 +25,90 @@ If we extend this calculation to 10,000 commuters, the total annual emissions ca
 
 ## In Conclusion
 the problem of traffic congestion caused by the static traffic signal system is a significant issue that impacts various aspects of urban life. To address this issue, transportation authorities must implement modern traffic management systems that use real-time data to adjust the timing of traffic signals to match the traffic flow, which can help reduce congestion, improve travel times, and enhance the quality of life for commuters. 
+
+### Analysis
+###Rudementary analysis of traffic signals
+location: Ring road square, near jariputka police station, Nagpur.
+Time given on all sides is 30 seconds respectively.
+
+
+| S.No. | Side 1 | Side 2 | Side 3 | Side 4 |
+|-------|--------|--------|--------|--------|
+| 1     | 18     | 33     | 15     | 17     |
+| 2     | 12     | 23     | 14     | 10     |
+| 3     | 12     | 30     | 22     | 19     |
+| 4     | 12     | 31     | 18     | 13     |
+| 5     | 11     | 25     | 18     | 18     |
+| 6     | 12     | 29     | 19     | 17     |
+| 7     | 14     | 27     | 17     | 21     |
+| 8     | 10     | 24     | 12     | 14     |
+| 9     | 16     | 27     | 19     | 16     |
+| 10    | 17     | 26     | 20     | 10     |
+| 11    | 13     | 25     | 14     | 20     |
+| 12    | 12     | 24     | 16     | 18     |
+| 13    | 10     | 24     | 18     | 16     |
+| 14    | 15     | 28     | 17     | 16     |
+| 15    | 14     | 26     | 14     | 21     |
+| 16    | 16     | 30     | 19     | 21     |
+| 17    | 14     | 29     | 16     | 23     |
+| 18    | 19     | 27     | 18     | 17     |
+| 19    | 16     | 24     | 21     | 22     |
+| 20    | 17     | 32     | 19     | 22     |
+| 21    | 12     | 29     | 19     | 24     |
+| 22    | 20     | 32     | 15     | 24     |
+| 23    | 18     | 29     | 22     | 18     |
+| 24    | 15     | 25     | 18     | 16     |
+| 25    | 12     | 33     | 18     | 20     |
+| 26    | 11     | 31     | 20     | 19     |
+| 27    | 14     | 29     | 22     | 20     |
+| 28    | 13     | 29     | 23     | 23     |
+| 29    | 15     | 22     | 21     | 30     |
+| 30    | 17     | 35     | 20     | 24     |
+| 31    | 18     | 30     | 22     | 20     |
+| 32    | 14     | 31     | 18     | 22     |
+| 33    | 16     | 32     | 20     | 22     |
+| 34    | 14     | 25     | 20     | 22     |
+| 35    | 17     | 33     | 12     | 20     |
+| 36    | 15     | 35     | 17     | 20     |
+| 37    | 20     | 27     | 16     | 25     |
+| 38    | 16     | 30     | 21     | 22     |
+| 39    | 15     | 31     | 20     | 20     |
+| 40    | 13     | 25     | 20     | 20     |
+| 41    | 14     | 28     | 23     | 26     |
+| 42    | 19     | 29     | 17     | 24     |
+| 43    | 18     | 31     | 22     | 21     |
+| 44    | 12     | 27     | 22     | 23     |
+| 45    | 13     | 32     | 23     | 29     |
+| 46    | 18     | 34     | 20     | 23     |
+| 47    | 23     | 30     | 20     | 29     |
+| 48    | 15     | 32     | 22     | 23     |
+| 49    | 17     | 32     | 23     | 26     |
+| 50    | 14     | 34     | 22     | 29     |
+| 51    | 18     | 26     | 24     | 26     |
+| 52    | 19     | 30     | 21     | 24     |
+| 53    | 12     | 35     | 25     | 30     |
+| 54    | 14     | 31     | 24     | 23     |
+| 55    | 15     | 28     | 19     | 28     |
+| 56    | 16     | 29     | 19     | 29     |
+| 57    | 18     | 32     | 25     | 22     |
+| 58    | 18     | 33     | 17     | 28     |
+| 59    | 22     | 33     | 19     | 24     |
+| 60    | 23     | 30     | 21     | 26     |
+
+####Analysis through space:
+#####Average no. of cars in the span of 2 hours on each side:
+* Side 1: Mean $\approx$ 16
+* Side 2: Mean $\approx$ 29
+* Side 3: Mean $\approx$ 19
+* Side 4: Mean $\approx$ 21
+
+####Analysis through time:
+
+| Time Intervals | Side 1 | Side 2 | Side 3 | Side 4 |
+|----------------|--------|--------|--------|--------|
+| 1st 30min      | 13.2   | 26.8   | 18.06  | 16.4   |
+| 2nd 30min      | 15.26  | 29.06  | 18.46  | 21.53  |
+| 3rd 30min      | 15.6   | 29.73  | 19.53  | 21.86  |
+| 4th 30min      | 17.46  | 31.26  | 21.26  | 26     |
+
+**From our analysis we can clearly see that the distribution of time is not balanced and doesn't take into consideration the unique conditions of the specific junction.**//Don't edit this abhirath.
