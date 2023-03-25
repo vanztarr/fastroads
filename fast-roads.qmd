@@ -4,7 +4,7 @@ format: html
 ---
 
 ## Our Approach
-As with any project, we have spent a good deal of time trying to concretely formulate the problem we intend to solve while scrupulously omitting any mention of a potential solution. We believe that coming up with a solution prior to having an exact idea of the problem itself is counterproductive; any other, potentially superior stragies to solving the problem could be completely overshadowed by that one naive solution everyone is already thinking about. Next follows the survey portion of our approach where we try to get as much information about the manifestation of the problem and its context as possible. Just as in the previous case, to get unbiased information we have planned to conduct the survey in a controlled manner.
+As with any project, we have spent a good deal of time trying to concretely formulate the problem we intend to solve while scrupulously omitting any mention of a potential solution. We believe that coming up with a solution prior to having an exact idea of the problem itself is counterproductive; any other, potentially superior stratagies to solving the problem could be completely overshadowed by that one naive solution everyone is already thinking about. After the problem is formulated, we the follow up with the survey portion of our approach where we try to get as much information about the manifestation of the problem and its context as possible. Just as in the previous case, to get unbiased information we have planned to conduct the survey in a controlled manner.
 
 ## A Concrete Formulation Of The Problem
 Traffic congestion is a significant problem in urban areas caused by ineffective traffic signal systems. The fixed-timing pattern of traffic signals leads to long delays, stop-and-go traffic, and wasted fuel. 
@@ -27,7 +27,7 @@ If we extend this calculation to 10,000 commuters, the total annual emissions ca
 the problem of traffic congestion caused by the static traffic signal system is a significant issue that impacts various aspects of urban life. To address this issue, transportation authorities must implement modern traffic management systems that use real-time data to adjust the timing of traffic signals to match the traffic flow, which can help reduce congestion, improve travel times, and enhance the quality of life for commuters. 
 
 ### Analysis
-###Rudementary analysis of traffic signals
+### Rudementary analysis of traffic signals
 location: Ring road square, near jariputka police station, Nagpur.
 Time given on all sides is 30 seconds respectively.
 
@@ -95,14 +95,14 @@ Time given on all sides is 30 seconds respectively.
 | 59    | 22     | 33     | 19     | 24     |
 | 60    | 23     | 30     | 21     | 26     |
 
-####Analysis through space:
-#####Average no. of cars in the span of 2 hours on each side:
+#### Analysis through space:
+##### Average no. of cars in the span of 2 hours on each side:
 * Side 1: Mean $\approx$ 16
 * Side 2: Mean $\approx$ 29
 * Side 3: Mean $\approx$ 19
 * Side 4: Mean $\approx$ 21
 
-####Analysis through time:
+#### Analysis through time:
 
 | Time Intervals | Side 1 | Side 2 | Side 3 | Side 4 |
 |----------------|--------|--------|--------|--------|
@@ -111,4 +111,4 @@ Time given on all sides is 30 seconds respectively.
 | 3rd 30min      | 15.6   | 29.73  | 19.53  | 21.86  |
 | 4th 30min      | 17.46  | 31.26  | 21.26  | 26     |
 
-**From our analysis we can clearly see that the distribution of time is not balanced and doesn't take into consideration the unique conditions of the specific junction.**//Don't edit this abhirath.
+**From our analysis we can clearly see that the distribution of time is not balanced and doesn't take into consideration the unique conditions of the specific junction.**

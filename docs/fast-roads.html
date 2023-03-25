@@ -59,6 +59,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -114,9 +115,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#our-approach" id="toc-our-approach" class="nav-link active" data-scroll-target="#our-approach">Our approach</a></li>
-  <li><a href="#a-concrete-formulation-of-the-problem" id="toc-a-concrete-formulation-of-the-problem" class="nav-link" data-scroll-target="#a-concrete-formulation-of-the-problem">A concrete formulation of the problem</a></li>
-  <li><a href="#in-conclusion" id="toc-in-conclusion" class="nav-link" data-scroll-target="#in-conclusion">In conclusion</a></li>
+  <li><a href="#our-approach" id="toc-our-approach" class="nav-link active" data-scroll-target="#our-approach">Our Approach</a></li>
+  <li><a href="#a-concrete-formulation-of-the-problem" id="toc-a-concrete-formulation-of-the-problem" class="nav-link" data-scroll-target="#a-concrete-formulation-of-the-problem">A Concrete Formulation Of The Problem</a></li>
+  <li><a href="#mathematical-view-point-according-to-our-analysis" id="toc-mathematical-view-point-according-to-our-analysis" class="nav-link" data-scroll-target="#mathematical-view-point-according-to-our-analysis">Mathematical View Point, According To Our Analysis</a></li>
+  <li><a href="#in-conclusion" id="toc-in-conclusion" class="nav-link" data-scroll-target="#in-conclusion">In Conclusion</a>
+  <ul class="collapse">
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
+  <li><a href="#rudementary-analysis-of-traffic-signals" id="toc-rudementary-analysis-of-traffic-signals" class="nav-link" data-scroll-target="#rudementary-analysis-of-traffic-signals">Rudementary analysis of traffic signals</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -141,27 +147,523 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <section id="our-approach" class="level2">
-<h2 class="anchored" data-anchor-id="our-approach">Our approach</h2>
-<p>As with any project, we have spent a good deal of time trying to concretely formulate the problem we intend to solve while scrupulously omitting any mention of a potential solution. We believe that coming up with a solution prior to having an exact idea of the problem itself is counterproductive; any other, potentially superior stragies to solving the problem could be completely overshadowed by that one naive solution everyone is already thinking about. Next follows the survey portion of our approach where we try to get as much information about the manifestation of the problem and its context as possible. Just as in the previous case, to get unbiased information we have planned to conduct the survey in a controlled manner.</p>
+<h2 class="anchored" data-anchor-id="our-approach">Our Approach</h2>
+<p>As with any project, we have spent a good deal of time trying to concretely formulate the problem we intend to solve while scrupulously omitting any mention of a potential solution. We believe that coming up with a solution prior to having an exact idea of the problem itself is counterproductive; any other, potentially superior stratagies to solving the problem could be completely overshadowed by that one naive solution everyone is already thinking about. After the problem is formulated, we the follow up with the survey portion of our approach where we try to get as much information about the manifestation of the problem and its context as possible. Just as in the previous case, to get unbiased information we have planned to conduct the survey in a controlled manner.</p>
 </section>
 <section id="a-concrete-formulation-of-the-problem" class="level2">
-<h2 class="anchored" data-anchor-id="a-concrete-formulation-of-the-problem">A concrete formulation of the problem</h2>
-<p>Traffic congestion is a significant problem in urban areas caused by ineffective traffic signal systems. The fixed-timing pattern of traffic signals leads to long delays, stop-and-go traffic, and wasted fuel. This problem affects * emergency services * business productivity * the environment.</p>
-<section id="inconvience-to-commuters" class="level4">
-<h4 class="anchored" data-anchor-id="inconvience-to-commuters">inconvience to commuters</h4>
-<p>Congestion can cause delays for emergency services, making it challenging to respond to critical situations quickly. Businesses may suffer losses due to delays in the transportation of goods and services, while commuters may experience increased stress and fatigue due to longer commute times.</p>
+<h2 class="anchored" data-anchor-id="a-concrete-formulation-of-the-problem">A Concrete Formulation Of The Problem</h2>
+<p>Traffic congestion is a significant problem in urban areas caused by ineffective traffic signal systems. The fixed-timing pattern of traffic signals leads to long delays, stop-and-go traffic, and wasted fuel.</p>
+<p>This problem affects : 1. inconvience to commuters - cause delays for emergency services, making it challenging to respond to critical situations quickly. Businesses may suffer losses due to delays in the transportation of goods and services, while commuters may experience increased stress and fatigue due to longer commute times. 2. the environment - produce harmful pollutants such as carbon monoxide, nitrogen oxides, and particulate matter, which can lead to respiratory problems and other health issues. also contributes to greenhouse gas emissions, which exacerbate the problem of climate change.</p>
 </section>
-<section id="the-environment" class="level4">
-<h4 class="anchored" data-anchor-id="the-environment">the environment</h4>
-<p>Idling vehicles produce harmful pollutants such as carbon monoxide, nitrogen oxides, and particulate matter, which can lead to respiratory problems and other health issues. It also contributes to greenhouse gas emissions, which exacerbate the problem of climate change.</p>
-<p>Furthermore, the traffic signals are not coordinated with each other, resulting in stop-and-go traffic that wastes fuel, increases emissions, and leads to longer commute times for drivers. This issue is compounded by the fact that drivers tend to accelerate quickly when they see a green light, only to be forced to brake suddenly when they encounter the next red light, which can increase the risk of accidents and further worsen traffic congestion.</p>
-</section>
+<section id="mathematical-view-point-according-to-our-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-view-point-according-to-our-analysis">Mathematical View Point, According To Our Analysis</h2>
+<p>let’s say that the average travel time for a commuter traveling from point A to point B during peak hours is 30 minutes, whereas the same journey would take only 15 minutes in the absence of traffic congestion. This means that the delay caused by traffic congestion is 15 minutes per trip or 0.5 hours per day for a round trip.</p>
+<p>If we assume that there are 10,000 commuters traveling between point A and point B during peak hours, then the total delay caused by traffic congestion would be 5,000 hours per day or 1,825,000 hours per year. This translates into significant losses in productivity, increased fuel consumption, and higher emissions.</p>
+<p>To quantify the environmental impact of traffic congestion, we can estimate the amount of greenhouse gas emissions produced by idling vehicles. According to studies, a typical passenger vehicle emits 1.1 pounds of carbon dioxide per minute while idling. If we assume that a commuter spends 30 minutes per day idling in traffic, then the annual emissions per commuter would be 201.5 pounds of carbon dioxide.</p>
+<p>If we extend this calculation to 10,000 commuters, the total annual emissions caused by idling vehicles would be 2,015,000 pounds or 907 metric tons of carbon dioxide. This is a significant contribution to greenhouse gas emissions, which can further exacerbate the problem of climate change.</p>
 </section>
 <section id="in-conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="in-conclusion">In conclusion</h2>
+<h2 class="anchored" data-anchor-id="in-conclusion">In Conclusion</h2>
 <p>the problem of traffic congestion caused by the static traffic signal system is a significant issue that impacts various aspects of urban life. To address this issue, transportation authorities must implement modern traffic management systems that use real-time data to adjust the timing of traffic signals to match the traffic flow, which can help reduce congestion, improve travel times, and enhance the quality of life for commuters.</p>
+<section id="analysis" class="level3">
+<h3 class="anchored" data-anchor-id="analysis">Analysis</h3>
+</section>
+<section id="rudementary-analysis-of-traffic-signals" class="level3">
+<h3 class="anchored" data-anchor-id="rudementary-analysis-of-traffic-signals">Rudementary analysis of traffic signals</h3>
+<p>location: Ring road square, near jariputka police station, Nagpur. Time given on all sides is 30 seconds respectively.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>S.No.</th>
+<th>Side 1</th>
+<th>Side 2</th>
+<th>Side 3</th>
+<th>Side 4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>18</td>
+<td>33</td>
+<td>15</td>
+<td>17</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>12</td>
+<td>23</td>
+<td>14</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>12</td>
+<td>30</td>
+<td>22</td>
+<td>19</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>12</td>
+<td>31</td>
+<td>18</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>11</td>
+<td>25</td>
+<td>18</td>
+<td>18</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>12</td>
+<td>29</td>
+<td>19</td>
+<td>17</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>14</td>
+<td>27</td>
+<td>17</td>
+<td>21</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>10</td>
+<td>24</td>
+<td>12</td>
+<td>14</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>16</td>
+<td>27</td>
+<td>19</td>
+<td>16</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>17</td>
+<td>26</td>
+<td>20</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>13</td>
+<td>25</td>
+<td>14</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>12</td>
+<td>24</td>
+<td>16</td>
+<td>18</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>10</td>
+<td>24</td>
+<td>18</td>
+<td>16</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>15</td>
+<td>28</td>
+<td>17</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>14</td>
+<td>26</td>
+<td>14</td>
+<td>21</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>16</td>
+<td>30</td>
+<td>19</td>
+<td>21</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>14</td>
+<td>29</td>
+<td>16</td>
+<td>23</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>19</td>
+<td>27</td>
+<td>18</td>
+<td>17</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>16</td>
+<td>24</td>
+<td>21</td>
+<td>22</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>17</td>
+<td>32</td>
+<td>19</td>
+<td>22</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>12</td>
+<td>29</td>
+<td>19</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>20</td>
+<td>32</td>
+<td>15</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>18</td>
+<td>29</td>
+<td>22</td>
+<td>18</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>15</td>
+<td>25</td>
+<td>18</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>12</td>
+<td>33</td>
+<td>18</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>11</td>
+<td>31</td>
+<td>20</td>
+<td>19</td>
+</tr>
+<tr class="odd">
+<td>27</td>
+<td>14</td>
+<td>29</td>
+<td>22</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>28</td>
+<td>13</td>
+<td>29</td>
+<td>23</td>
+<td>23</td>
+</tr>
+<tr class="odd">
+<td>29</td>
+<td>15</td>
+<td>22</td>
+<td>21</td>
+<td>30</td>
+</tr>
+<tr class="even">
+<td>30</td>
+<td>17</td>
+<td>35</td>
+<td>20</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>18</td>
+<td>30</td>
+<td>22</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>14</td>
+<td>31</td>
+<td>18</td>
+<td>22</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>16</td>
+<td>32</td>
+<td>20</td>
+<td>22</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>14</td>
+<td>25</td>
+<td>20</td>
+<td>22</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>17</td>
+<td>33</td>
+<td>12</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>15</td>
+<td>35</td>
+<td>17</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>37</td>
+<td>20</td>
+<td>27</td>
+<td>16</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>38</td>
+<td>16</td>
+<td>30</td>
+<td>21</td>
+<td>22</td>
+</tr>
+<tr class="odd">
+<td>39</td>
+<td>15</td>
+<td>31</td>
+<td>20</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>40</td>
+<td>13</td>
+<td>25</td>
+<td>20</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>14</td>
+<td>28</td>
+<td>23</td>
+<td>26</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>19</td>
+<td>29</td>
+<td>17</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>18</td>
+<td>31</td>
+<td>22</td>
+<td>21</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>12</td>
+<td>27</td>
+<td>22</td>
+<td>23</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>13</td>
+<td>32</td>
+<td>23</td>
+<td>29</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>18</td>
+<td>34</td>
+<td>20</td>
+<td>23</td>
+</tr>
+<tr class="odd">
+<td>47</td>
+<td>23</td>
+<td>30</td>
+<td>20</td>
+<td>29</td>
+</tr>
+<tr class="even">
+<td>48</td>
+<td>15</td>
+<td>32</td>
+<td>22</td>
+<td>23</td>
+</tr>
+<tr class="odd">
+<td>49</td>
+<td>17</td>
+<td>32</td>
+<td>23</td>
+<td>26</td>
+</tr>
+<tr class="even">
+<td>50</td>
+<td>14</td>
+<td>34</td>
+<td>22</td>
+<td>29</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>18</td>
+<td>26</td>
+<td>24</td>
+<td>26</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>19</td>
+<td>30</td>
+<td>21</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>12</td>
+<td>35</td>
+<td>25</td>
+<td>30</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>14</td>
+<td>31</td>
+<td>24</td>
+<td>23</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>15</td>
+<td>28</td>
+<td>19</td>
+<td>28</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>16</td>
+<td>29</td>
+<td>19</td>
+<td>29</td>
+</tr>
+<tr class="odd">
+<td>57</td>
+<td>18</td>
+<td>32</td>
+<td>25</td>
+<td>22</td>
+</tr>
+<tr class="even">
+<td>58</td>
+<td>18</td>
+<td>33</td>
+<td>17</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td>59</td>
+<td>22</td>
+<td>33</td>
+<td>19</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>60</td>
+<td>23</td>
+<td>30</td>
+<td>21</td>
+<td>26</td>
+</tr>
+</tbody>
+</table>
+<section id="analysis-through-space" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-through-space">Analysis through space:</h4>
+<section id="average-no.-of-cars-in-the-span-of-2-hours-on-each-side" class="level5">
+<h5 class="anchored" data-anchor-id="average-no.-of-cars-in-the-span-of-2-hours-on-each-side">Average no. of cars in the span of 2 hours on each side:</h5>
+<ul>
+<li>Side 1: Mean <span class="math inline">\(\approx\)</span> 16</li>
+<li>Side 2: Mean <span class="math inline">\(\approx\)</span> 29</li>
+<li>Side 3: Mean <span class="math inline">\(\approx\)</span> 19</li>
+<li>Side 4: Mean <span class="math inline">\(\approx\)</span> 21</li>
+</ul>
+</section>
+</section>
+<section id="analysis-through-time" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-through-time">Analysis through time:</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Time Intervals</th>
+<th>Side 1</th>
+<th>Side 2</th>
+<th>Side 3</th>
+<th>Side 4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1st 30min</td>
+<td>13.2</td>
+<td>26.8</td>
+<td>18.06</td>
+<td>16.4</td>
+</tr>
+<tr class="even">
+<td>2nd 30min</td>
+<td>15.26</td>
+<td>29.06</td>
+<td>18.46</td>
+<td>21.53</td>
+</tr>
+<tr class="odd">
+<td>3rd 30min</td>
+<td>15.6</td>
+<td>29.73</td>
+<td>19.53</td>
+<td>21.86</td>
+</tr>
+<tr class="even">
+<td>4th 30min</td>
+<td>17.46</td>
+<td>31.26</td>
+<td>21.26</td>
+<td>26</td>
+</tr>
+</tbody>
+</table>
+<p><strong>From our analysis we can clearly see that the distribution of time is not balanced and doesn’t take into consideration the unique conditions of the specific junction.</strong></p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
