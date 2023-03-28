@@ -1,5 +1,12 @@
 ---
-title: "Fast roads: Design thinking project"
+title: "Fast Roads: Design thinking project"
+date: 2023-03-24
 ---
 
-We are trying to build simple passive solutions to reduce travel times in cities.
+## What we are doing
+
+We are trying to build simple passive solutions to reduce travel times in cities. Our concrete goal is to reduce commute times, that is the time taken for someone to reach their destination from their starting point.
+
+## Why we're doing it
+
+We're doing it because commuting times don't have to be this bad and it's a shame that they are. The longer the commute, the lower the satisfaction with work and life; the length of commuting can also cause damage to health, affecting physical health and causing inactivity [@libin22]. Commuting time is also directly related to the economic health of a city in certain aspects [@zipper21], [@krohn22].

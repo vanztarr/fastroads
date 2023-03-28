@@ -4,6 +4,7 @@ project:
 
 website:
   title: "fastroads"
+  search: false
   navbar:
     left:
       - href: index.qmd
@@ -17,9 +18,11 @@ website:
       - href: contact-page.qmd
         text: contact us
 
+bibliography: references.bib
+
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 

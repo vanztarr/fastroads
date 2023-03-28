@@ -3,3 +3,5 @@ title: "Contact Us"
 format: html
 ---
 
+To contact us please email to Adarsh Saraf at se21uece004@mahindrauniversity.edu.in
+or Sriabhirath Reddy Sangala at se21ucam013@mahindrauniversity.edu.in
