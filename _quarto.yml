@@ -9,14 +9,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about-us.qmd
-        text: about us
       - href: fast-roads.qmd
-        text: fast roads
+        text: Fast Roads
+      - href: about-us.qmd
+        text: About Us
       - href: blog.qmd
-        text: blog
+        text: Blog
       - href: contact-page.qmd
-        text: contact us
+        text: Contact Us
+      - href: data.qmd
+        text: Data
 
 bibliography: references.bib
 
