@@ -3,19 +3,35 @@ title: "Fast Roads: commuting doesn't have to be this bad!"
 format: html
 --
 
+Traffic Congestion : Inefficient traffic light timings contribute to increased congestion and longer travel times in the city.
+
+## The Challenges Faced.
+
+One cannot control traffic but has to face the effecrs of the congestion in their day to day life for instances, At times when we have an important work to get to but then due to the longer travel times across the cities, we end up running late, losing impression infront of our peers. This is a huge problem effecting every single person. Even school children are sometimes asked to return home for coming few minutes late even though they wake up and get ready at the earliest, students in college are asked to go back to thier homes, even if they come to class a minute later than 8:25 AM because the professors are very strict. Sometimes, even the professors cancell classes and we end up affecting our academics. The emergancies to be acted upon are delayed because of the traffic congestion leading to a lot of stress and loss of time. 
 
 ## Our Approach
-As with any project, we have spent a good deal of time trying to concretely formulate the problem we intend to solve while scrupulously omitting any mention of a potential solution. We believe that coming up with a solution prior to having an exact idea of the problem itself is counterproductive; any other, potentially superior stratagies to solving the problem could be completely overshadowed by that one naive solution everyone is already thinking about. After the problem is formulated, we the follow up with the survey portion of our approach where we try to get as much information about the manifestation of the problem and its context as possible. Just as in the previous case, to get unbiased information we have planned to conduct the survey in a controlled manner.
+
+Our journey began with a group discussion aimed at identifying a problem statement for our project. Each of us individually spent 2-3 days reflecting on the challenges we personally faced in our daily lives. Surprisingly, the issue of commuting, whether it was returning home or coming to campus, resonated strongly with all of us. We shared frustration and annoyance resulting from missed classes and even class suspensions due to traffic-related delays.
+
+Initially, we contemplated focusing on road construction as the root cause of our travel chaos. However, as our discussions deepened, we collectively realized that traffic itself was the underlying problem. It became evident that the static nature of traffic signals played a significant role in congestion and amplifying day-to-day issues.
+
+To refine our approach, we delved into the fundamental reasons behind traffic congestion. We conducted observations at local intersections and analyzed the behavior of traffic signals. Additionally, we engaged in conversations with people from various backgrounds to gather their perspectives and experiences regarding traffic-related challenges. This comprehensive exploration allowed us to identify potential solutions and formulate the most effective approach to address the issue.
+
+By combining our research, insights, and collective experiences, we aim to tackle the problem of traffic congestion at its core. Our project seeks to see the functioning of traffic signals, making them more dynamic and responsive to traffic flow. 
+
+Our approach is rooted in understanding the problem from multiple angles, actively seeking feedback, and developing innovative solutions to create a positive impact on the lives of individuals affected by traffic congestion.
 
 ## A Concrete Formulation Of The Problem
 Traffic congestion is a significant problem in urban areas caused by ineffective traffic signal systems. The fixed-timing pattern of traffic signals leads to long delays, stop-and-go traffic, and wasted fuel. 
 
-This problem affects :
-1. inconvience to commuters - cause delays for emergency services, making it challenging to respond to critical situations quickly. Businesses may suffer losses due to delays in the transportation of goods and services, while commuters may experience increased stress and fatigue due to longer commute times.
-2. the environment - produce harmful pollutants such as carbon monoxide, nitrogen oxides, and particulate matter, which can lead to respiratory problems and other health issues. also contributes to greenhouse gas emissions, which exacerbate the problem of climate change.
-
+1. Inconvience to commuters 
+2. Delays for emergency services
+3. Punctuality and professional reputation
+4. Quality of life
+5. The environment - produce harmful pollutants such as carbon monoxide, nitrogen oxides, and particulate matter, which can lead to respiratory problems and other health issues. also contributes to greenhouse gas emissions, which exacerbate the problem of climate change.
 
 ## Mathematical View Point, According To Our Analysis
+
 let's say that the average travel time for a commuter traveling from point A to point B during peak hours is 30 minutes, whereas the same journey would take only 15 minutes in the absence of traffic congestion. This means that the delay caused by traffic congestion is 15 minutes per trip or 0.5 hours per day for a round trip.
 
 If we assume that there are 10,000 commuters traveling between point A and point B during peak hours, then the total delay caused by traffic congestion would be 5,000 hours per day or 1,825,000 hours per year. This translates into significant losses in productivity, increased fuel consumption, and higher emissions.
@@ -24,8 +40,16 @@ To quantify the environmental impact of traffic congestion, we can estimate the 
 
 If we extend this calculation to 10,000 commuters, the total annual emissions caused by idling vehicles would be 2,015,000 pounds or 907 metric tons of carbon dioxide. This is a significant contribution to greenhouse gas emissions, which can further exacerbate the problem of climate change.
 
-## In Conclusion
-the problem of traffic congestion caused by the static traffic signal system is a significant issue that impacts various aspects of urban life. To address this issue, transportation authorities must implement modern traffic management systems that use real-time data to adjust the timing of traffic signals to match the traffic flow, which can help reduce congestion, improve travel times, and enhance the quality of life for commuters. 
+## Our Solution
+A naive approach to address the traffic problem would involve simply allocating more time to the side of the road experiencing heavier congestion. While this might optimize the waiting time at local traffic junctions, it fails to address the larger issue of reducing travel time between any two points within the city. To achieve a more comprehensive solution, we propose sending real-time traffic information to a central control unit, which can then optimize traffic flow on a city-wide scale.
+
+By collecting data from various sources, such as traffic sensors, GPS devices, and mobile applications, we can gather valuable insights about traffic patterns and congestion levels across the city. This information can be transmitted to a centralized system equipped with sophisticated algorithms and artificial intelligence capabilities.
+
+## Why our solution ?
+
+The advantages of this approach are twofold. 
+1. Firstly, it ensures that travel time between any two points in the city is reduced, benefiting all commuters and enhancing overall efficiency. 
+2. Secondly, it enables proactive traffic management and adaptability to changing conditions, such as accidents or road closures, allowing for prompt rerouting and minimizing disruptions.
 
 ### Analysis
 ### Rudementary analysis of traffic signals
